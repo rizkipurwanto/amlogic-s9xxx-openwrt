@@ -214,10 +214,11 @@ rebuild_firmware() {
         \
         luci luci-base luci-compat luci-i18n-base-zh-cn luci-lib-base \
         luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-network \
-        luci-mod-status luci-mod-system luci-proto-3g luci-proto-ipip luci-proto-ipv6 \
-        luci-proto-ncm luci-proto-openconnect luci-proto-ppp luci-proto-qmi luci-proto-relay \
-        \
-        luci-app-amlogic luci-i18n-amlogic-zh-cn \
+        luci-mod-status luci-mod-system luci-proto-ipip luci-proto-openconnect luci-proto-relay \
+        kmod-usb3 kmod-mii kmod-usb-net kmod-usb-wdm kmod-usb-net-qmi-wwan kmod-usb-net-cdc-ether \
+        kmod-usb-serial-option kmod-usb-serial kmod-usb-serial-wwan kmod-usb-serial-qualcomm kmod-usb-acm \
+        kmod-usb-net-cdc-ncm kmod-usb-net-cdc-mbim umbim kmod-usb-net-rndis luci-proto-mbim modemmanager luci-proto-modemmanager \
+        luci-proto-3g luci-proto-ipv6 luci-proto-ncm luci-proto-qmi uqmi qmi-utils luci-proto-ppp usbutils nano \
         \
         ${config_list} \
         "

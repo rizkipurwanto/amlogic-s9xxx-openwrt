@@ -214,7 +214,7 @@ rebuild_firmware() {
         \
         luci luci-base luci-compat luci-lib-base luci-app-package-manager\
         luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-network \
-        luci-mod-status luci-mod-system luci-app-firewall dnsmasq-full \
+        luci-mod-status luci-mod-system luci-app-firewall dnsmasq \
         kmod-usb3 kmod-usb2 kmod-mii kmod-usb-net kmod-usb-wdm kmod-usb-net-qmi-wwan kmod-usb-net-cdc-ether usb-modeswitch\
         kmod-usb-serial-option kmod-usb-serial kmod-usb-serial-wwan kmod-usb-serial-qualcomm kmod-usb-acm \
         kmod-usb-net-cdc-ncm kmod-usb-net-cdc-mbim umbim kmod-usb-net-rndis luci-proto-mbim modemmanager luci-proto-modemmanager \
